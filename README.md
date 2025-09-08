@@ -22,6 +22,12 @@ The confusion matrix for our best model, the Neural Network, shows its effective
 
 The primary objective of this project is to leverage NLP and machine learning techniques to build a robust classifier capable of identifying the origin of an essay. This has practical applications in academic integrity, content verification, and understanding the stylistic differences between human and machine-generated text.
 
+<center>
+    <img src="output1.png" alt="Top 20 Most Important Words" width="700">
+    <img src="output2.png" alt="Model Comparison Summary" width="700">
+    <img src="output3.png" alt="Top 20 Most Important Words" width="700">
+</center>
+
 ---
 
 ## ⚙️ Project Workflow & Methodology
