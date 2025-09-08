@@ -7,12 +7,14 @@ An end-to-end Natural Language Processing (NLP) project that builds and evaluate
 ## 📊 Key Visualizations & Insights
 
 This project yields several key insights into the data and model performance. The final comparison clearly shows that the **Neural Network** achieved the highest accuracy in classifying the essays.
-
-
+<center>
+    <img src="output5.png" alt="Distribution of Essay Word Count" width="600">
+</center>
 
 The confusion matrix for our best model, the Neural Network, shows its effectiveness in correctly identifying both AI-generated and student-written essays with minimal errors.
-
-
+<center>
+    <img src="output6.png" alt="Confusion Matrix for Neural Network" width="700">
+</center>
 
 ---
 
@@ -28,7 +30,9 @@ The project is structured to follow a standard, professional machine learning pi
 
 1.  **Exploratory Data Analysis (EDA):**
     * Performed an initial investigation of the dataset to understand its structure, check for missing values, and analyze the class balance between AI-generated (`1`) and student-written (`0`) essays.
-
+    <center>
+        <img src="output.png" alt="Class Balance Visualization" width="700">
+    </center>
 2.  **Text Preprocessing & Cleaning:**
     * Handled missing values by imputing the `id` and dropping rows with null text.
     * Cleaned the raw text data by converting it to lowercase, removing punctuation and numbers, and stripping extra whitespace to prepare it for feature extraction.
@@ -38,15 +42,17 @@ The project is structured to follow a standard, professional machine learning pi
     * This technique converts each essay into a vector that represents the importance of various words, allowing the models to learn from word usage patterns.
     * The top 1000 most significant words were selected as features.
 
-
-
-4.  **Feature Scaling & Dimensionality Reduction:**
+    4.  **Feature Scaling & Dimensionality Reduction:**
     * Standardized the TF-IDF feature matrix using `StandardScaler` to ensure all features have a similar scale.
     * Applied **Principal Component Analysis (PCA)** to reduce the dimensionality of the feature space to 100 components, speeding up training and reducing noise.
 
 5.  **Model Training & Benchmarking:**
     * Trained and evaluated several classification models to find the best performer:
         * **Support Vector Machine (SVM)** with three different kernels (Linear, RBF, Polynomial).
+      <center>
+       <img src="output4.png" alt="Neural Network Loss Curve" width="600">
+      </center>
+      
         * **Multi-layer Perceptron (MLP)**, a type of Neural Network.
 
 6.  **Hyperparameter Tuning & Evaluation:**
@@ -55,12 +61,14 @@ The project is structured to follow a standard, professional machine learning pi
     * Visualized model performance using **Confusion Matrices**.
 
 
-
 ---
 
 ## 🏆 Results & Conclusion
 
 After a thorough evaluation, the **tuned Neural Network** emerged as the best-performing model, achieving the highest test accuracy. The project successfully demonstrates how NLP feature extraction combined with classical and neural network models can effectively solve a real-world text classification problem.
+<center>
+    <img src="output7.png" alt="Distribution of Essay Word Count" width="600">
+</center>
 
 ---
 
