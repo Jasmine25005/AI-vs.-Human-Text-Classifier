@@ -91,7 +91,7 @@ After a thorough evaluation, the **tuned Neural Network** emerged as the best-pe
 
 1.  **Clone the repository:**
     ```sh
-    git clone [https://github.com/your-username/AI-vs-Student-Essay-Classifier.git](https://github.com/your-username/AI-vs-Student-Essay-Classifier.git)
+    git clone https://github.com/Jasmine25005/AI-vs.-Human-Text-Classifier.git
     cd AI-vs-Student-Essay-Classifier
     ```
 2.  **Install dependencies:**
